@@ -184,8 +184,8 @@ export default {
         data.on = on
       }
     }
-	if(this.to==''){
-      data.attrs.href=null
+    if (this.to == '') {
+      data.attrs.href = null
     }
     return h(this.tag, data, this.$slots.default)
   }
